@@ -1,0 +1,7 @@
+div{
+    border-color: blue green red black;
+    border-width: 100px;
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+}

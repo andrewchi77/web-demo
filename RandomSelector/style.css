@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    }
+
+.wrap {
+    text-align: center;
+}
+
+.wrap ol {
+    text-align: left;
+    display: inline-block;
+}

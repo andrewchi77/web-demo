@@ -1,0 +1,60 @@
+div{
+    width: 350px;
+    height: 200px;
+    margin: 100px 0px 0px 100px;
+    background-color: black;
+    position: relative;
+    -webkit-animation: 'myfirst' 6s linear infinite;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: -40px 0px 0px 115px;
+    position: relative;
+    
+}
+
+img{
+    -webkit-animation: 'rotate1' 6s linear infinite;
+    /*animation: 'rotate1' 3s linear infinite;*/
+}
+
+
+#apple{
+    margin-top: -150px;
+    background-color: green;
+    position: absolute;
+    -webkit-animation: 'rotate2' 6s linear infinite;
+}
+/*
+@keyframes rotate1{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}*/
+
+@-webkit-keyframes myfirst {
+    0%   {left:0%;}
+    25%  {left:25%;}
+    50%  {left:50%;}
+    75%  {left:25%;}
+    100% {left:0%;}
+  }
+
+@-webkit-keyframes rotate1{
+    0%   {transform: rotate(0deg);left:0%;}
+    25%  {left:25%;}
+    50%  {transform: rotate(360deg);left:50%;}
+    75%  {left:25%;}
+    100% {transform: rotate(0deg);left:0%;}
+}
+
+@-webkit-keyframes rotate2{
+    0%   {left:0%;}
+    25%  {left:25%;}
+    50%  {left:50%;}
+    75%  {left:25%;}
+    100% {left:0%;}
+    /*from{transform: rotate3d(1, 1, 0, 0deg)}
+    to{transform: rotate3d(1, 1, 1, 360deg);};*/
+}
